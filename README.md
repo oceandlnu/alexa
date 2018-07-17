@@ -1,7 +1,5 @@
 # Alexa Auto Test
 
-[![release](https://img.shields.io/badge/release-v0.1.0-orange.svg)](https://github.com/oceandlnu/alexa/releases) [![issues](https://img.shields.io/github/issues/oceandlnu/alexa.svg)](https://github.com/oceandlnu/alexa/issues) [![forks](https://img.shields.io/github/forks/oceandlnu/alexa.svg)](https://github.com/oceandlnu/alexa/network) [![stars](https://img.shields.io/github/stars/oceandlnu/alexa.svg)](https://github.com/oceandlnu/alexa/stargazers)
-
 ### 功能概述
 
 + 采用HTML5、CSS3、JavaScript(jQuery)、PHP，实现Alexa语音自动化测试脚本，响应式布局，移动端&PC端布局兼容性优化
