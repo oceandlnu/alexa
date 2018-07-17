@@ -9,7 +9,7 @@
 + text to speech实现
 + 循环播报实现(单曲，列表，随机三种模式)
 + local command语音测试实现(单曲，列表，随机三种模式)
-+ 自定义语音列表，后台接口：项目地址/add_list(eg：http://39.108.167.55:8888/alexa/add_list/)
++ 自定义增加语音列表
 + 语音接口：webSpeechAPI、IBM、百度
 + 百度语音token失效，自动更新代码实现
 
@@ -151,8 +151,7 @@ function IBMTTS(textContent) {
 作者：Ocean
 
 Github：https://github.com/oceandlnu
-
-作品链接：http://39.108.167.55:8888/alexa/
+Gitee：https://gitee.com/oceandlnu
 
 版权所有Copyright © 2016-2018 by Ocean's Blog (https://oceandlnu.github.io/)
 
