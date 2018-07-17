@@ -1,0 +1,34 @@
+Alexa, open Maps
+Alexa, open Google Maps
+Alexa, open Waze
+Alexa, open Roav VIVA
+Alexa, take me to the China
+Alexa, Stop Navigation
+Alexa, Cancel Navigation
+Alexa, Make a call to 265279
+Alexa, Make a call to 265279682
+Alexa, call 6299 888*
+Alexa, call 911
+Alexa, call 110
+Alexa, call Cancel.
+Alexa, call Alex.
+Alexa, call Alex mobile phone.
+Alexa, call Alex at home.
+Alexa, call Alex at work.
+Alexa, make a call.
+Alex
+Alex Zhang
+Mobile.
+Peter
+Peter Rangel
+Trevor Peters
+Peter Craig
+The first one.
+Mobile.
+Work.
+Home.
+Cancel.
+Others.
+Never Mind
+Forget it
+I change my mind

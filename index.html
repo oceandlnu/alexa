@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Text to Speech</title>
+    <link rel="icon" href="icon/favicon.ico" type="image/x-icon">
+    <script type="text/javascript">
+        //判断是否是移动设备加载不同的样式
+        var ua = navigator.userAgent;
+        isMobile = /Mobile/i.test(ua);
+        if (isMobile) {
+            setActiveStyleSheet("mobile_reset.css");
+            setActiveStyleSheet("mobile_tts.css");
+        } else {
+            setActiveStyleSheet("reset.css");
+            setActiveStyleSheet("tts.css");
+        }
+        //判断完毕后设置样式
+        function setActiveStyleSheet(filename) {
+            document.write("<link href=css/" + filename + " rel=stylesheet type=text/css>");
+        }
+    </script>
+</head>
+
+<body>
+<div class="div">
+    <div class="menu">
+        <ul>
+            <a href="/">
+                <li>Text to Speech</li>
+            </a>
+            <a href="loopPlay.html">
+                <li>Loop Play</li>
+            </a>
+            <a href="local.html">
+                <li>Local Command</li>
+            </a>
+            <a href="upload-log">
+                <li>Upload Log</li>
+            </a>
+            <a href="upload-log/download.html">
+                <li>Download Log</li>
+            </a>
+            <a href="addlist/index.html">
+                <li>Add List</li>
+            </a>
+        </ul>
+    </div>
+    <div class="platform">
+        <input type="button" value="Web Speech API" onclick="platformTTS(this.value)">
+        <input type="button" value="IBM" onclick="platformTTS(this.value)">
+        <input type="button" value="Baidu" onclick="platformTTS(this.value)">
+        <input type="button" value="Google" onclick="platformTTS(this.value)" style="display: none">
+    </div>
+
+
+    <div class="content">
+        <div class="list" id="list">
+            <select class="selectOrder" id="selectOrder" onchange="selectList(this.value)"></select>
+            <dl class="selectText" id="selectText"></dl>
+        </div>
+        <div class="text">
+            <textarea id="textArea" class="textArea" spellcheck="false"></textarea>
+        </div>
+    </div>
+
+    <div class="button">
+        <form action="server/load_uploaded_list.php" method="post" enctype="multipart/form-data">
+            <input type="file" name="file[]" id="files" style="display: none;" onchange="readText()" multiple="true"/>
+            <input class="content_button" type="button" id="import" value="Import"/>
+        </form>
+        <input type="button" value="Speak" onclick="speak()">
+        <input type="button" value="Reset" onclick="resetText()" style="display: none;">
+    </div>
+
+</div>
+<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="js/index.js" type="text/javascript"></script>
+<script src="js/tts.js" type="text/javascript"></script>
+</body>
+</html>

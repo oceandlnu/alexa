@@ -1,0 +1,77 @@
+Alexa, set up an event for yesterday
+6 am
+event 1
+No
+Alexa, set up an event for tomorrow
+4 pm
+event 2
+Yes
+Alexa, Set timer
+3 second
+Alexa, play music on pandora
+Alexa, stop
+Alexa, stop
+Alexa, Set a timer for 5 second
+Alexa, stop
+Alexa, Set sleep timer for 1 minute
+Alexa, stop
+Alexa, set a 3 second pizza timer
+Alexa, stop
+Alexa, Set alarm
+1 second
+Alexa, stop
+Alexa, Set alarm
+7 am
+tomorrow
+Alexa, stop
+Alexa, Set an alarm for 6:00 am
+Alexa, stop
+Alexa, Set a today alarm
+7 am
+Alexa, Cancel the alarm
+Alexa, add my to-do list
+event 3
+Alexa, add my shopping list
+shopping 1
+Alexa, show my shopping list?
+Yes
+Alexa, add shopping 2 to my shopping list
+Alexa, show my to-do list?
+No
+Alexa, read my Audible book
+Alexa, read louder
+Alexa, resume my Audible book
+Alexa, read my Kindle book
+Alexa, read louder
+Alexa, resume my Kindle book
+Alexa, stop reading in 1 minutes
+Alexa, play Echo Smith
+Alexa, play firework by Ketty Perry
+Alexa, what's playing
+Alexa, Play top pop station from prime Music
+Alexa, I like this song
+Alexa, I don't like this song
+Alexa, Thumb up
+Alexa, Thumb down
+Alexa, Play previous music
+Alexa, Play next music
+Alexa, skip
+Alexa, play Star 102 from iHeart Radio
+Alexa, stop
+Alexa, play
+Alexa, What's playing?
+Alexa, how's the weather?
+Alexa, Will it rain tomorrow?
+Alexa, What's the weather in Beijing
+Alexa, show the weather forecast
+Alexa, What’s traffic like now?
+Alexa, What’s my commute?
+Alexa, Flash Briefing
+Alexa, News Update
+Alexa, pause
+Alexa, resume
+Alexa, What time it is
+Alexa, Sports Update
+Alexa, play C89.5 from TuneIn
+Alexa, play Wonderland station from SiriusXM
+Alexa, play music on pandora

@@ -1,0 +1,16 @@
+Alexa, call
+Alexa, Dial
+Alexa, Make a call
+Alexa, Make a call to
+Alexa, Make a phone call to
+Alexa, Please call
+Alexa, Please make a call to
+Alexa, Will you call
+Alexa, Will you please call
+Alexa, Can you call
+Alexa, Can you please call
+Alexa, Can i call
+Alexa, Can i please call
+Alexa, I want to call
+Alexa, I want to make a call to
+Alexa, I want to make a phone call to

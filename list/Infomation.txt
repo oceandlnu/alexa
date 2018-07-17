@@ -1,0 +1,25 @@
+Alexa, next chapter
+Alexa, previous chapter
+Alexa, skip
+Alexa, back
+Alexa, loop on
+Alexa, loop off
+Alexa, shuffle on
+Alexa, restart this song
+Alexa, play 94.9 from i Heart Radio
+Alexa, play Adele station from i Heart Radio
+Alexa, What's my commute
+Alexa, Mute
+Alexa, Unmute
+Alexa, play morning edition from Tune In
+Alexa, play Ted Talks from TuneIn
+Alexa, next
+Alexa, previous
+Alexa, Hello
+Alexa, Wikipedia wi-fi
+Alexa, read more from Wikipedia
+Alexa, What is the square root of 64
+Alexa, What movies are playing?
+Alexa, Whose profile is this?
+Alexa, Enable Translator skill
+Alexa, ask Translator to say it's raining in Italian

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Local Command</title>
+    <link rel="icon" href="icon/favicon.ico" type="image/x-icon">
+    <script type="text/javascript">
+        //判断是否是移动设备加载不同的样式
+        var ua = navigator.userAgent;
+        isMobile = /Mobile/i.test(ua);
+        if (isMobile) {
+            setActiveStyleSheet("mobile_reset.css");
+            setActiveStyleSheet("mobile_local.css");
+        } else {
+            setActiveStyleSheet("reset.css");
+            setActiveStyleSheet("local.css");
+        }
+
+        //判断完毕后设置样式
+        function setActiveStyleSheet(filename) {
+            document.write("<link href=css/" + filename + " rel=stylesheet type=text/css>");
+        }
+    </script>
+</head>
+
+<body>
+<div class="div">
+    <div class="menu">
+        <ul>
+            <a href="/">
+                <li>Text to Speech</li>
+            </a>
+            <a href="loopPlay.html">
+                <li>Loop Play</li>
+            </a>
+            <a href="local.html">
+                <li>Local Command</li>
+            </a>
+            <a href="upload-log">
+                <li>Upload Log</li>
+            </a>
+            <a href="upload-log/download.html">
+                <li>Download Log</li>
+            </a>
+            <a href="addlist/index.html">
+                <li>Add List</li>
+            </a>
+        </ul>
+    </div>
+    <div class="platform">
+        <input type="button" value="Web Speech API" onclick="platformTTS(this.value)">
+        <input type="button" value="IBM" onclick="platformTTS(this.value)">
+        <input type="button" value="Baidu" onclick="platformTTS(this.value)">
+        <input type="button" value="Google" onclick="platformTTS(this.value)" style="display: none">
+    </div>
+    <div class="content">
+        <div class="content_left" id="list">
+            <select class="selectOrder" id="selectOrder" onchange="selectList(this.value)"
+                    style="display: none"></select>
+            <dl class="selectText" id="selectText"></dl>
+        </div>
+        <div class="content_center">
+            <dl class="selectTime" id="selectTime"></dl>
+        </div>
+        <div class="content_right">
+            <textarea id="textArea" class="textArea" spellcheck="false"></textarea>
+            <input class="textTime" id="textTime" type="text" name="" value=""><span>秒</span>
+            <br/>
+            <input class="textTime" id="textNameTime" type="text" name="" value=""><span>秒</span>
+        </div>
+    </div>
+    <div class="button">
+        <form action="server/load_uploaded_list.php" method="post" enctype="multipart/form-data">
+            <input type="file" name="file[]" id="files" style="display: none;" onchange="readText()" multiple="true"/>
+            <input type="button" id="import" value="Import"/>
+        </form>
+        <input type="button" id="modeSwitch" name="singleLoop" value="Single Loop"
+               onclick="modeSwitch()">
+        <input type="button" id="modeSwitch1" name="singleLoop" value="Single Loop"
+               onclick="modeSwitch1()">
+        <input type="button" id="playState" name="startPlay" value="Start Play"
+               onclick="playState()">
+        <input type="button" name="startPlay" value="Speak" onclick="toSpeak()">
+        <input type="button" name="startPlay" value="Speak Name" onclick="toSpeakName()">
+    </div>
+</div>
+
+<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="js/index.js" type="text/javascript"></script>
+<script src="js/local.js" type="text/javascript"></script>
+<!--
+<footer class="footer">
+	<hr>
+	<span>CopyRight By Ocean's</span>
+</footer>
+-->
+</body>
+</html>

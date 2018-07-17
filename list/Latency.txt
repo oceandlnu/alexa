@@ -1,0 +1,18 @@
+Alexa, What time is it in San Francisco
+Alexa, How is traffic now
+Alexa, How is the weather in Seattle
+Alexa, why is the sky blue
+Alexa, how many ounces are in a cup?
+Alexa, how tall is Mount Everest?
+Alexa, what's the capital of Spain?
+Alexa, how far is the moon?
+Alexa, what was Taylor Swift's first album
+Alexa, what's the square root of 64
+Alexa, how far is it from San Francisco to Los Angeles
+Alexa, What's the capital of China?
+Alexa, how many people live in China
+Alexa, how do you spell misspell?
+Alexa, what's 99 divided by 12?
+Alexa, Wikipedia wi-fi
+Alexa, read more from Wikipedia
+Alexa, Hello

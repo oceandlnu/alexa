@@ -1,0 +1,45 @@
+Alexa
+Alexa, Hello
+Alexa, Hi
+Alexa, where am I
+Alexa, who are you
+Alexa, what time it is
+Alexa, whose profile is this
+Alexa, what's the weather today
+Alexa, ask Quote Maker to create a notification.
+Alexa, read my notification.
+Alexa, I want to go to NewYork
+Alexa, take me to the China
+Alexa, route me to Space Needle
+Alexa, navigate to 107 street
+Alexa, get the direction to house
+Alexa, stop navigation.
+Alexa, cancel navigation.
+Alexa, play music on pandora
+Alexa, play Spotify
+Alexa, play Tuneln radio
+Alexa, play some Prime Music
+Alexa, play k-pop station on pandora
+Alexa, play music on iheartradio
+Alexa, sing a song
+Alexa, suffle my dinner party playlist
+Alexa, what's song is this?
+Alexa, buy this song
+Alexa, open Maps
+Alexa, open Google Maps
+Alexa, open Waze
+Alexa, open Roav VIVA
+Alexa, play the program Radiolab
+Alexa, play ESPN radio
+Alexa, order laundry detergent
+Alexa, buy more paper towels
+Alexa, tell me a joke
+Alexa, Wikipedia Abraham Lincoln
+Alexa, Wikipedia wi-fi
+Alexa, read more from Wikipedia
+Alexa, play my Flash Briefing
+Alexa, what's the weather?
+Alexa, how is my commute looking
+Alexa, dim Hue light to 30%
+Alexa, turn on the fan
+Alexa, stop

@@ -1,0 +1,24 @@
+Alexa, play Spotify
+Alexa, play songs by [artist] from Spotify
+Alexa, play [playlist name] playlist from Spotify
+Alexa, play the song [song name] by [artist] from Spotify
+Alexa, play the album [album name] by [artist] from Spotify
+Alexa, pause
+Alexa, play
+Alexa, stop
+Alexa, resume
+Alexa, next
+Alexa, previous
+Alexa, skip
+Alexa, shuffle on
+Alexa, shuffle off
+Alexa, volume up
+Alexa, volume down
+Alexa, volume 4
+Alexa, mute
+Alexa, what is playing?
+Alexa, what song is this?
+Alexa, connect Spotify
+Alexa, skip
+Alexa, play [playlist name] from Spotify
+Alexa, spotify disconnect
